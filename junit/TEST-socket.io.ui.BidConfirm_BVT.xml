@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="WQ-PC" name="socket.io.ui.BidConfirm_BVT" skipped="0" tests="1" time="0.22" timestamp="2014-10-06T03:26:56">
+  <properties>
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="env.=D:" value="D:\Program Files\WorkSpace\SocketTestFramework" />
+    <property name="java.home" value="D:\Program Files\Java\jdk1.7.0_09\jre" />
+    <property name="env.VS90COMNTOOLS" value="d:\Program Files\Microsoft Visual Studio 9.0\Common7\Tools\" />
+    <property name="env.FTP_PASSIVE" value="1" />
+    <property name="java.endorsed.dirs" value="D:\Program Files\Java\jdk1.7.0_09\jre\lib\endorsed" />
+    <property name="env.USERNAME" value="WQ" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.HUDSON_HOME" value="C:\Users\WQ\.jenkins" />
+    <property name="ECLIPSE_HOME" value="../../eclipse" />
+    <property name="env.LG_PATH" value="D:\Program Files\HP\LoadRunner\" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="env.COMPUTERNAME" value="WQ-PC" />
+    <property name="env.NODE_NAME" value="master" />
+    <property name="env.windows_tracing_flags" value="3" />
+    <property name="java.version" value="1.7.0_09" />
+    <property name="env.NODE_LABELS" value="master" />
+    <property name="env.JENKINS_SERVER_COOKIE" value="4c8cf559c9d29198" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.USERPROFILE" value="C:\Users\WQ" />
+    <property name="ant.project.invoked-targets" value="BidConfirm_BVT" />
+    <property name="env.SystemRoot" value="C:\Windows" />
+    <property name="env.JAVA_OPTS" value=" -Djava.util.logging.config.file=&quot;D:\Program Files\apache-tomcat-8.0.12\conf\logging.properties&quot; -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager" />
+    <property name="user.name" value="WQ" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="sun.jnu.encoding" value="GBK" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\WQ\AppData\Local" />
+    <property name="env.CURRENT_DIR" value="D:\Program Files\apache-tomcat-8.0.12\bin" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="user.timezone" value="" />
+    <property name="user.script" value="" />
+    <property name="path.separator" value=";" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="x86 Family 6 Model 58 Stepping 9, GenuineIntel" />
+    <property name="env._JAVACMD" value="D:\Program Files\Java\jdk1.7.0_09\bin\java.exe" />
+    <property name="file.encoding" value="GBK" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="env.TITLE" value="Tomcat" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner socket.io.ui.BidConfirm_BVT skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\Program Files\WorkSpace\SocketTestFramework\junit\TEST-socket.io.ui.BidConfirm_BVT.xml crashfile=D:\Program Files\WorkSpace\SocketTestFramework\junitvmwatcher2366205599224798292.properties propsfile=D:\Program Files\WorkSpace\SocketTestFramework\junit2389833045753975178.properties" />
+    <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+    <property name="env.APPDATA" value="C:\Users\WQ\AppData\Roaming" />
+    <property name="ant.file" value="D:\Program Files\WorkSpace\SocketTestFramework\build.xml" />
+    <property name="env.LOGGER_CONFIG_PATH" value="D:\Program Files\HP\LoadRunner\dat\ltlogconf.xml" />
+    <property name="env.BUILD_TAG" value="jenkins-AutoTest-13" />
+    <property name="env.LOGGING_MANAGER" value="-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager" />
+    <property name="java.io.tmpdir" value="C:\Users\WQ\AppData\Local\Temp\" />
+    <property name="user.language" value="zh" />
+    <property name="env.LOGGING_CONFIG" value="-Djava.util.logging.config.file=&quot;D:\Program Files\apache-tomcat-8.0.12\conf\logging.properties&quot;" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="target" value="1.7" />
+    <property name="env.CATALINA_BASE" value="D:\Program Files\apache-tomcat-8.0.12" />
+    <property name="ant.file.type" value="file" />
+    <property name="env.路径" value="D:\Program Files\Symantec\pcAnywhere\" />
+    <property name="env.CURR_DIR" value="D:\Program Files\HP\LoadRunner\dat\Setup\LoadRunner\MSBuild\..\..\..\.." />
+    <property name="env.JOB_NAME" value="AutoTest" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="source" value="1.7" />
+    <property name="env.BUILD_DISPLAY_NAME" value="#13" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="env.BUILD_URL" value="http://localhost:8080/jenkins/job/AutoTest/13/" />
+    <property name="env.M2_HOME" value="D:\Program Files\apache\apache-maven-3.1.1" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="env.MOZ_PLUGIN_PATH" value="D:\Program Files\Foxit Software\Foxit Reader\plugins\" />
+    <property name="env.JAVA_ENDORSED_DIRS" value="D:\Program Files\apache-tomcat-8.0.12\endorsed" />
+    <property name="ant.file.SocketTestFramework" value="D:\Program Files\WorkSpace\SocketTestFramework\build.xml" />
+    <property name="env.EXECUTABLE" value="D:\Program Files\apache-tomcat-8.0.12\bin\catalina.bat" />
+    <property name="env.LOGONSERVER" value="\\WQ-PC" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.HUDSON_SERVER_COOKIE" value="4c8cf559c9d29198" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="env.ANALYSIS_PATH" value="D:\Program Files\HP\LoadRunner\" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+    <property name="env.USERDOMAIN" value="WQ-PC" />
+    <property name="env.TARGETDIR" value="D:\Program Files\HP\LoadRunner\dat\Setup\LoadRunner\MSBuild\..\..\..\.." />
+    <property name="env._EXECJAVA" value="start &quot;Tomcat&quot; &quot;D:\Program Files\Java\jdk1.7.0_09\bin\java.exe&quot;" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+    <property name="env.windir" value="C:\Windows" />
+    <property name="env.BUILD_NUMBER" value="13" />
+    <property name="os.name" value="Windows 7" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="env.TMP" value="C:\Users\WQ\AppData\Local\Temp" />
+    <property name="env.TERM" value="dumb" />
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.JOB_URL" value="http://localhost:8080/jenkins/job/AutoTest/" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="java.library.path" value="D:\Program Files\Java\jdk1.7.0_09\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files\Java\jdk1.7.0_09/bin;D:\Program Files\Java\jdk1.7.0_09/bin;D:\Program Files\Java\jdk1.7.0_09\bin;C:\Python27\;C:\Program Files\NVIDIA Corporation\PhysX\Common;C:\Program Files\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\OpenCL SDK\2.0\bin\x86;D:\Program Files\TortoiseSVN\bin;D:\Program Files\android-sdk-windows\tools;D:\Program Files\android-sdk-windows\platform-tools;C:\Program Files\Microsoft SQL Server\80\Tools\Binn\;D:\Program Files\Microsoft SQL Server\90\DTS\Binn\;D:\Program Files\Microsoft SQL Server\90\Tools\binn\;D:\Program Files\Microsoft SQL Server\90\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies\;D:\Program Files\apache\apache-maven-3.1.1\bin;C:\Program Files\nodejs\;D:\Program Files\apache-ant-1.9.4\bin;C:\Users\WQ\AppData\Roaming\npm;." />
+    <property name="env.HUDSON_URL" value="http://localhost:8080/jenkins/" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="env.JENKINS_URL" value="http://localhost:8080/jenkins/" />
+    <property name="basedir" value="D:\Program Files\WorkSpace\SocketTestFramework" />
+    <property name="java.class.version" value="51.0" />
+    <property name="ant.home" value="D:\Program Files\apache-ant-1.9.4" />
+    <property name="env.Path" value="D:\Program Files\Java\jdk1.7.0_09/bin;D:\Program Files\Java\jdk1.7.0_09/bin;D:\Program Files\Java\jdk1.7.0_09\bin;C:\Python27\;C:\Program Files\NVIDIA Corporation\PhysX\Common;C:\Program Files\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\OpenCL SDK\2.0\bin\x86;D:\Program Files\TortoiseSVN\bin;D:\Program Files\android-sdk-windows\tools;D:\Program Files\android-sdk-windows\platform-tools;C:\Program Files\Microsoft SQL Server\80\Tools\Binn\;D:\Program Files\Microsoft SQL Server\90\DTS\Binn\;D:\Program Files\Microsoft SQL Server\90\Tools\binn\;D:\Program Files\Microsoft SQL Server\90\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies\;D:\Program Files\apache\apache-maven-3.1.1\bin;C:\Program Files\nodejs\;D:\Program Files\apache-ant-1.9.4\bin;C:\Users\WQ\AppData\Roaming\npm" />
+    <property name="env.LOG_FILE" value="C:\Users\WQ\AppData\Local\Temp\ihp_custom_batches.log" />
+    <property name="env.JENKINS_HOME" value="C:\Users\WQ\.jenkins" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="env._RUNJDB" value="&quot;D:\Program Files\Java\jdk1.7.0_09\bin\jdb.exe&quot;" />
+    <property name="env.LR_ROOT" value="D:\Program Files\HP\LoadRunner\" />
+    <property name="env.windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log" />
+    <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk1.7.0_09\jre\bin" />
+    <property name="env.PROCESSOR_REVISION" value="3a09" />
+    <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="user.variant" value="" />
+    <property name="env.ACTION" value="start" />
+    <property name="env.JRE_HOME" value="D:\Program Files\Java\jdk1.7.0_09" />
+    <property name="env.MAINCLASS" value="org.apache.catalina.startup.Bootstrap" />
+    <property name="ant.project.name" value="SocketTestFramework" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="ant.file.type.SocketTestFramework" value="file" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+    <property name="java.ext.dirs" value="D:\Program Files\Java\jdk1.7.0_09\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="os.version" value="6.1" />
+    <property name="user.home" value="C:\Users\WQ" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="env.JAVA_HOME" value="D:\Program Files\Java\jdk1.7.0_09" />
+    <property name="env._RUNJAVA" value="&quot;D:\Program Files\Java\jdk1.7.0_09\bin\java.exe&quot;" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="user.dir" value="D:\Program Files\WorkSpace\SocketTestFramework" />
+    <property name="env.FP_NO_HOST_CHECK" value="NO" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="env._USE_CLASSPATH" value="no" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="x86" />
+    <property name="java.vm.version" value="23.5-b02" />
+    <property name="java.class.path" value="D:\Program Files\WorkSpace\SocketTestFramework\bin;D:\Program Files\WorkSpace\SocketTestFramework\libs\gson-2.2.4.jar;D:\Program Files\WorkSpace\SocketTestFramework\libs\commons-codec-1.9.jar;D:\Program Files\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar;D:\Program Files\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar;D:\Program Files\WorkSpace\SocketTestFramework\libs\log4j-1.2.17.jar;D:\Program Files\WorkSpace\SocketTestFramework\libs\xstream\cglib-nodep-2.2.jar;D:\Program Files\WorkSpace\SocketTestFramework\libs\xstream\dom4j-1.6.1.jar;D:\Program Files\WorkSpace\SocketTestFramework\libs\xstream\jdom-1.1.3.jar;D:\Program Files\WorkSpace\SocketTestFramework\libs\xstream\jdom2-2.0.5.jar;D:\Program Files\WorkSpace\SocketTestFramework\libs\xstream\jettison-1.2.jar;D:\Program Files\WorkSpace\SocketTestFramework\libs\xstream\joda-time-1.6.jar;D:\Program Files\WorkSpace\SocketTestFramework\libs\xstream\json-20080701.jar;D:\Program Files\WorkSpace\SocketTestFramework\libs\xstream\kxml2-2.3.0.jar;D:\Program Files\WorkSpace\SocketTestFramework\libs\xstream\kxml2-min-2.3.0.jar;D:\Program Files\WorkSpace\SocketTestFramework\libs\xstream\stax-1.2.0.jar;D:\Program Files\WorkSpace\SocketTestFramework\libs\xstream\stax-api-1.0.1.jar;D:\Program Files\WorkSpace\SocketTestFramework\libs\xstream\wstx-asl-3.2.7.jar;D:\Program Files\WorkSpace\SocketTestFramework\libs\xstream\xmlpull-1.1.3.1.jar;D:\Program Files\WorkSpace\SocketTestFramework\libs\xstream\xom-1.1.jar;D:\Program Files\WorkSpace\SocketTestFramework\libs\xstream\xpp3_min-1.1.4c.jar;D:\Program Files\WorkSpace\SocketTestFramework\libs\xstream-1.4.7.jar;D:\Program Files\WorkSpace\SocketTestFramework\libs\mysql-connector-java-5.1.32-bin.jar;D:\Program Files\apache-ant-1.9.4\lib\ant-launcher.jar;D:\Program Files\apache-ant-1.9.4\lib\ant.jar;D:\Program Files\apache-ant-1.9.4\lib\ant-junit.jar;D:\Program Files\apache-ant-1.9.4\lib\ant-junit4.jar" />
+    <property name="env.HOMEPATH" value="\Users\WQ" />
+    <property name="ant.library.dir" value="D:\Program Files\apache-ant-1.9.4\lib" />
+    <property name="os.arch" value="x86" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="env.BUILD_ID" value="2014-10-06_11-26-52" />
+    <property name="ant.core.lib" value="D:\Program Files\apache-ant-1.9.4\lib\ant.jar" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="file.separator" value="\" />
+    <property name="java.runtime.version" value="1.7.0_09-b05" />
+    <property name="env.ANT_CMD_LINE_ARGS" value=" BidConfirm_BVT" />
+    <property name="sun.boot.class.path" value="D:\Program Files\Java\jdk1.7.0_09\jre\lib\resources.jar;D:\Program Files\Java\jdk1.7.0_09\jre\lib\rt.jar;D:\Program Files\Java\jdk1.7.0_09\jre\lib\sunrsasign.jar;D:\Program Files\Java\jdk1.7.0_09\jre\lib\jsse.jar;D:\Program Files\Java\jdk1.7.0_09\jre\lib\jce.jar;D:\Program Files\Java\jdk1.7.0_09\jre\lib\charsets.jar;D:\Program Files\Java\jdk1.7.0_09\jre\lib\jfr.jar;D:\Program Files\Java\jdk1.7.0_09\jre\classes" />
+    <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+    <property name="env.VUGEN_PATH" value="D:\Program Files\HP\LoadRunner\" />
+    <property name="env.WORKSPACE" value="D:\Program Files\WorkSpace\SocketTestFramework" />
+    <property name="env.TEMP" value="C:\Users\WQ\AppData\Local\Temp" />
+    <property name="user.country" value="CN" />
+    <property name="env.ANT_HOME" value="D:\Program Files\apache-ant-1.9.4" />
+    <property name="env.EXECUTOR_NUMBER" value="0" />
+    <property name="env.LR_PATH" value="D:\Program Files\HP\LoadRunner\" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.CATALINA_TMPDIR" value="D:\Program Files\apache-tomcat-8.0.12\temp" />
+    <property name="env.PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\" />
+    <property name="env.HUDSON_COOKIE" value="e781ef82-229b-4a10-a7fe-66766c817098" />
+    <property name="env.CATALINA_HOME" value="D:\Program Files\apache-tomcat-8.0.12" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="sun.arch.data.model" value="32" />
+    <property name="env.lib" value="C:\Program Files\SQLXML 4.0\bin\" />
+  </properties>
+  <testcase classname="socket.io.ui.BidConfirm_BVT" name="test" time="0.142">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at socket.io.SocketIO.getNonce(SocketIO.java:169)
+	at socket.io.ui.BidConfirm_BVT.test(BidConfirm_BVT.java:49)
+</error>
+  </testcase>
+  <system-out><![CDATA[解析服务器时间Nonce出错：未及时接收返回消息!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
