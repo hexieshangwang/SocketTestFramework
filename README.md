@@ -1,4 +1,5 @@
 API-1：SocketIO
+
 1.Create Socket IO
 SocketIO io = new SocketIO(String host, int port)
 
@@ -24,6 +25,7 @@ io.getMessageType(String message):String
 io.getNonce(String message):int
 
 API-2：Expect
+
 1.Create Expects(according to the custom check rules)
 Expect expect1 = new Expect((SocketIO io, String operationDesc, String expectedEvent,
 			String expectedMessage){
@@ -36,10 +38,12 @@ Expect expect1 = new Expect((SocketIO io, String operationDesc, String expectedE
 Expect[] expects = { expect1, …};
 
 API-3：MD5
+
 1.Create MD5 Abstract
 MD5.encrypt(int nonce):String
 
 API-4：MySQL
+
 1.Create Connection
 MySQL.connect():void
 
