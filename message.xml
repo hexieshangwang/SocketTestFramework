@@ -1,38 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Message-array>
   <Message>
-    <type>SyncTime</type>
-    <reply>{"C2S":"Login","channel":{"ID":300001},"player":{"ID":900001,"name":"loginOwner","isHost":true},"auth":{"cipher":"OYjoJIOwQTPi0T46FCWPNQ=="}}</reply>
-	<auto>false</auto>
-  </Message>
-  <Message>
     <type>Tick</type>
     <reply>{"C2S":"Tock"}</reply>
 	<auto>true</auto>
-  </Message>
-  <Message>
-    <type>SingTick</type>
-    <reply>{"C2S":"SingTock"}</reply>
-	<auto>true</auto>
-  </Message>
-  <Message>
-    <type>SingPrepare</type>
-    <reply>{"C2S":"SingPrepare","sectionIndex":1,"retcode":0}</reply>
-	<auto>false</auto>
-  </Message>
-  <Message>
-    <type>BidConfirm</type>
-    <reply>{"C2S":"BidConfirm","prop":{"ID":7000,"useNumber":105},"retcode":0,"orderNumber":"orderid=201407100947380002REWPZCZ&amp;goodsType=7000&amp;goodsNum=30&amp;fromId=1005954699&amp;toId=977985295&amp;result=0","signature":"MzAyYzAyMTQzY2YxYTAwMTVhMjM5YTZiNGE2ZTdlMGE1ODU2MWRlMjEwZTM5NWU5MDIxNDQ3NTNhMWRlMmE4YTAyMWQ0Y2Q5YmE3MmUxNjY1YjUyNzVjNmFjZTI="}</reply>
-	<auto>false</auto>
-  </Message>
-  <Message>
-    <type>PropConfirm</type>
-    <reply>{"C2S":"PropConfirm","prop":{"ID":7011,"useNumber":1},"retcode":0,"orderNumber":"orderid=201407100947380002REWPZCZ&amp;goodsType=7000&amp;goodsNum=30&amp;fromId=1005954699&amp;toId=977985295&amp;result=0","signature":"MzAyYzAyMTQzY2YxYTAwMTVhMjM5YTZiNGE2ZTdlMGE1ODU2MWRlMjEwZTM5NWU5MDIxNDQ3NTNhMWRlMmE4YTAyMWQ0Y2Q5YmE3MmUxNjY1YjUyNzVjNmFjZTI="}</reply>
-	<auto>false</auto>
-  </Message>
-  <Message>
-    <type>RoomInfo</type>
-    <reply>{"C2S":"RoomInfo","RoomInfo":1,"RoomInfo":0}</reply>
-	<auto>false</auto>
   </Message>
 </Message-array>
