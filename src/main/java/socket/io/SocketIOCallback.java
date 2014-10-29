@@ -63,7 +63,6 @@ public class SocketIOCallback implements Runnable {
 	@Override
 	public void run() {
 		// TODO Auto-generated method stub
-		while (true) {
 			try {
 				if (!this.socket.isClosed()) {
 					InputStream is = this.socket.getInputStream();
@@ -74,7 +73,7 @@ public class SocketIOCallback implements Runnable {
 						this.setResponse(reply);
 						if (null != reply) {
 							GUI.printOutputTextArea(Timer.getNowTime()+" "+"Receive < :: \t" + reply);
-							logger.info(Timer.getNowTime()+" "+this.io.toString()+" Receive < :: \t" + reply);
+							logger.info(this.io.toString()+" Receive < :: \t" + reply);
 
 							String type = this.io.getMessageType(reply);
 							
@@ -86,13 +85,11 @@ public class SocketIOCallback implements Runnable {
 					isr.close();
 					is.close();
 				} else {
-					logger.info("Stream read failed£ºconnection is closed!");
+					logger.info("Stream read failedÂ£Âºconnection is closed!");
 				}
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				logger.error(e.getMessage());
 			}
 		}
-
-	}
 }
